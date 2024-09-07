@@ -17,7 +17,7 @@ export default function Home() {
         <ToDoList />
       </Authenticated>
       <Unauthenticated>
-        <p className="text-gray-700">You&apos;re most welcome! Could you please sign in here to continue?</p>
+        <p className="text-gray-700">You are most welcome! Could you please sign in here to continue?</p>
         <SignInButton>
           <button className="p-1 bg-indigo-600 text-white rounded">Sign In</button>
         </SignInButton>
