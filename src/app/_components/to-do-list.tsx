@@ -3,7 +3,7 @@ import { api } from "../../../convex/_generated/api";
 import type { Id } from "../../../convex/_generated/dataModel";
 
 export function ToDoList() {
-    const todos =  useQuery(api.functions.listTodods);
+    const todos =  useQuery(api.functions.listTodos);
     return (
         <ul className="space-y-2">
         {todos?.map(({ _id, title, description, completed}, index) => (
